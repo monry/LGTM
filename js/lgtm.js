@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
   const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbxfKlYnuLMh8SfxirlBPgQ5eEPHMMmzXcGRT0008tUi8U9GFymj/exec';
 
   let script = document.createElement('script');
