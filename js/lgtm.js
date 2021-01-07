@@ -1,4 +1,4 @@
-(function(){
+window.addEventListener("DOMContentLoaded", function() {
   const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbxfKlYnuLMh8SfxirlBPgQ5eEPHMMmzXcGRT0008tUi8U9GFymj/exec';
 
   let script = document.createElement('script');
@@ -47,4 +47,4 @@
     document.body.appendChild(displayElement);
     setTimeout(() => document.body.removeChild(displayElement), 3000);
   };
-})();
+});
